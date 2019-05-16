@@ -1,0 +1,118 @@
+
+
+			Python training (acloud guru)
+https://acloud.guru/course/python-for-beginners
+https://chocolatey.org
+open Windows Powershell as Administrator (RMB administrator) (when installing or updating remember to use Administrator powershell)
+Follow installation steps (use install via Powershell)
+		---------------------------------------------------------------------
+to load python - ipython3
+print ("I have " + str(3) + " cats.") 
+- will display
+I have 3 cats
+greeting = "Hello, "
+name = "Matt"
+greeting + name
+displays
+'Hello, Matt'
+  
+in this code Python will check the variable " cart " for an entry from the top display you can see that the cart is empty and it tells us to ' Go Shop!'
+Once we have placed something within the variable remit of " cart " i.e. ' food' once the code is ran it then asks if we want to check out.
+A clear but simple use of the " else " command.
+lists and sentences when counting Python always starts at 0(zero)
+so in the list
+colors = ["red", "orange"}
+the r in red is count 0(zero)
+to search backwards use Ctrl+r then enter chosen code and then hit enter
+when searching or "splitting" its easier to keep the modifiers short
+ 
+Countdown loops
+correct ;
+ 
+Incorrect
+ 
+By removing the - before the = i have created an infinite loop - this can be easily broken out of by using ctrl+c
+ 
+the use of .pop on a lis tis to remove the last item from the list until the list is empty and therefore will return a false statement.
+ 
+To append the list 
+names.append("Larry")
+ 
+ 
+Functions
+print("Hello, world!")
+Hello, world!
+len ("Hello, world")
+13
+len = the amount of characters, it starts from 0(zero) and includes spaces.
+sum = will add the numbers in the list
+sum([1,2,3]) this will equal 6
+ 
+max and min work in a similar but will define the maximum / minimum numbers in that list
+ 
+ 
+range will count and stop before the number given
+ 
+ 
+Sorted and reversed sorted are 2 ways of putting things into an alphabatised order.
+Format and making the code easy to read is the better way to use Python
+ 
+ 
+ 
+to copy a list
+ 
+ 
+here there is a copy of a_list to b_list then and append which added 'Owls' this was then copied to blist and appened to have the word Hacky Sack added.
+Creating a function
+to create a function use the def command
+ 
+ 
+greet has become the function and the variable 'name' was defined earlier in the course
+ name = ["Matt"]    this defines the name variable.
+Always ensure your syntax is correct the two examples below show the differance of worn and right - the correst answer should be 24:
+ 
+The top (incorrect) one has no space between the equals and the number 1.
+
+None and Dictionaries
+None = a type of with single value that can be nothing or one value.
+ 
+if the data has no value no return output will be shown, this is reversed if there is value (obv).
+Dicts or Dictionairies
+For example a dictionary is used to look up phrases rather than words;
+ 
+Dicts are not organised like lists and will not sort;
+ 
+you can use two ways to get the value of the key (key=matt or Bob)
+ 
+.get is a function.
+2 ways of showing the data:
+ 
+to show just values:
+ 
+for a list of both key and value data
+ 
+how to delete from a dictionary using del or .pop - .pop can be used to remove from anywhere in the list at anytime
+del
+ 
+.pop
+ 
+when the dictionary "cats" is ran each time you can that there is one less key in the dictionary of "cats" each time.
+to add back in at anytime just use;
+ 
+ 
+ 
+
+Home co-ordinates ( 52.47879, -1.471939 )
+
+
+
+
+ for meteor in meteor_data:
+    ...:     if not ('reclat' in meteor and 'reclong' in meteor): continue
+    ...:     meteor['distance'] = calc_dist(float(meteor['reclat']), float(meteor['reclong']), my_loc[0], my_loc[1])
+
+
+
+
+
+
